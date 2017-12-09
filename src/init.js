@@ -220,7 +220,7 @@ function scrollama() {
       const bottomAdjusted = bottom - offsetMargin;
 
       if (isIntersecting && bottomAdjusted >= -ZERO_MOE) {
-        notifyStepProgress(target, +intersectionRatio.toFixed(3));
+        notifyStepProgress(target, +intersectionRatio.toFixed(5));
       }
     });
   }
