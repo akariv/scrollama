@@ -459,7 +459,7 @@ function scrollama() {
   }
 
   function setThreshold() {
-    const count = 100;
+    const count = 10000;
     thresholdProgress = [];
     const ratio = 1 / count;
     for (let i = 0; i < count; i++) {

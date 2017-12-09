@@ -1198,7 +1198,7 @@ function scrollama() {
   }
 
   function setThreshold() {
-    var count = 100;
+    var count = 10000;
     thresholdProgress = [];
     var ratio = 1 / count;
     for (var i = 0; i < count; i++) {
